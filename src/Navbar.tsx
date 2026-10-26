@@ -1,6 +1,8 @@
+type NavbarProps = {
+    selectedTab: (tab: string) => void;
+}
 
-
-export default function Navbar({selectedTab}){
+export default function Navbar({selectedTab} : NavbarProps){
 
     function setNavBar(tab: string){
         selectedTab(tab);
