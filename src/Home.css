@@ -1,0 +1,30 @@
+#home-section {
+    background-color: #faf9f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#intro h2{
+    font-size: 3rem;
+}
+
+#intro h3 {
+    font-size: 2rem;
+}
+
+#intro-bio {
+    min-width: 500px;
+    max-width: 700px;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+
+#portrait img{
+    height: fit-content;
+    max-height: 500px;
+    border: solid;
+    border-radius: 70% 100% 70% 100%;
+}

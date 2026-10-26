@@ -1,0 +1,11 @@
+#project-section{
+    background-color: #faf9f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.project-holder {
+    padding-bottom: 30px;
+}

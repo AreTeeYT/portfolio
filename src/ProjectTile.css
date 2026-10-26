@@ -1,0 +1,29 @@
+#project-tile {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: solid;
+    border-style: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+}
+
+#project-image img{
+    border: solid;
+    border-style: hidden;
+    border-radius: 20% 0% 500% 20%;
+    width: fit-content;
+    min-width: 200px;
+}
+
+#project-info {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+    padding-left: 30px;
+}
