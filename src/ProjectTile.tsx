@@ -1,8 +1,10 @@
+import projectImagePlaceholder from "./assets/project-image-placeholder.png"
+
 export default function ProjectTile(){
     return (
         <div id="project-tile">
             <div id="project-image">
-              <img src="src\assets\project-image-placeholder.png"></img>
+              <img src={projectImagePlaceholder}></img>
             </div>
             <div id="project-info">
               <div id="project-title">

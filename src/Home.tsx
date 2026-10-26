@@ -1,4 +1,4 @@
-
+import me from "./assets/me.jpg"
 
 
 export default function Home(){
@@ -13,7 +13,7 @@ export default function Home(){
                 </div>
             </div>
             <div id="portrait">
-                <img src='src\assets\me.jpg'></img>
+                <img src={me}></img>
             </div>
       </section>
     );
