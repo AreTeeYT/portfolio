@@ -9,3 +9,10 @@
 .project-holder {
     padding-bottom: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    #project-section {
+        padding: 10px;
+    }
+}
