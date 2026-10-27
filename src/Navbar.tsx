@@ -8,6 +8,7 @@ export default function Navbar({selectedTab} : NavbarProps){
         selectedTab(tab);
     }
 
+
     return (
         <>
             <nav id='navbar'>

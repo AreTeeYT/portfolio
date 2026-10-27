@@ -6,3 +6,10 @@ html, body{
     font-family: "Inter", sans-serif;
 }
 
+@media only screen and (max-width: 600px){
+    html, body{
+        max-width: 600px;
+        min-width: 460px;
+    }
+}
+
