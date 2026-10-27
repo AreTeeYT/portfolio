@@ -9,25 +9,6 @@ export default function ContactMe(){
     <>
         <section id="contact-section">
             <div className="contact-box">
-                <form>
-                    <div className='input-field'>
-                        <label>Name</label>
-                        <input></input>
-                    </div>
-                    <div className='input-field'>
-                        <label>Email</label>
-                        <input></input>
-                    </div>
-                    <div className='input-field'>
-                        <label>Message</label>
-                        <textarea rows={10}></textarea>
-                    </div>
-                    <div className='input-field'>
-                        <input type="submit" value="Send Message"/>
-                    </div>
-                </form>
-            </div>
-            <div className="contact-box">
                 <div id="socials-box">
                     <div className='social-link'>
                         <a href="https://github.com/AreTeeYT" target='_blank'>
@@ -60,6 +41,25 @@ export default function ContactMe(){
                         </a>
                     </div>
                 </div>
+            </div>
+            <div className="contact-box">
+                <form>
+                    <div className='input-field'>
+                        <label>Name</label>
+                        <input></input>
+                    </div>
+                    <div className='input-field'>
+                        <label>Email</label>
+                        <input></input>
+                    </div>
+                    <div className='input-field'>
+                        <label>Message</label>
+                        <textarea rows={10}></textarea>
+                    </div>
+                    <div className='input-field'>
+                        <input type="submit" value="Send Message"/>
+                    </div>
+                </form>
             </div>
         </section>
     </>
