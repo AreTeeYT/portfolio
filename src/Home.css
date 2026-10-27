@@ -33,7 +33,7 @@
     #home-section {
         flex-direction: column;
         align-items: center;
-        padding: 10px;
+        padding: auto;
     }
     #intro {
         text-align: center;
